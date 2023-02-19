@@ -33,6 +33,7 @@ object FullOnlyOrReducedOrNone extends Enumeration {
 }
 
 // What is the list of enumerations?
+// Add new comment as link to issue for a test
 object MarketFactorType extends Enumeration {
   type MarketFactorType = Value
   val YieldCurve, VolSurface = Value
