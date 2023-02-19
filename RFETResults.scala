@@ -20,4 +20,5 @@ trait RFETResults extends usefulTypes {
   def GetByRiskFactors(riskfactor: Seq[RiskFactor], snap: MarketDataMilestone, LegalEntity: Seq[RegRegime]): Map[RiskFactor, (Boolean, Boolean)]  // Returns a map of legal entities to their in scope risk factors/nmrf flags
 
   // Add RiskFactor.Properties filter
+  // Add new comment
 }
